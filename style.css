@@ -2,21 +2,11 @@
 
 @font-face {
 	font-family: 'FontAwesome';
-	src: url('font/fontawesome-webfont.eot?v=3.2.1');
-	src: url('font/fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'), url('font/fontawesome-webfont.woff?v=3.2.1') format('woff'), url('font/fontawesome-webfont.ttf?v=3.2.1') format('truetype'), url('font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg');
+	src: url('fontawesome-webfont.eot?v=3.2.1');
+	src: url('fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'), url('fontawesome-webfont.woff?v=3.2.1') format('woff'), url('fontawesome-webfont.ttf?v=3.2.1') format('truetype'), url('fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
-
-/*
-	Helios 1.0 by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-/*********************************************************************************/
-/* Basic                                                                         */
-/*********************************************************************************/
 
 	body.paused *
 	{
@@ -205,7 +195,6 @@
 		font-size: 0.8em;
 	}
 
-	/* Sections/Articles */
 	
 		section,
 		article
@@ -239,7 +228,6 @@
 			text-align: center;
 		}
 
-	/* Images */
 
 		.image
 		{
@@ -249,32 +237,6 @@
 			outline: 0;
 		}
 		
-			/* Uncomment the block below if you want linked images to highlight on hover */
-		
-			/*
-			a.image:before
-			{
-				content: '';
-				display: block;
-				position: absolute;
-				left: 0;
-				top: 0;
-				width: 100%;
-				height: 100%;
-				background: #fff;
-				opacity: 0;
-				-moz-transition: opacity 0.35s ease-in-out;
-				-webkit-transition: opacity 0.35s ease-in-out;
-				-o-transition: opacity 0.35s ease-in-out;
-				-ms-transition: opacity 0.35s ease-in-out;
-				transition: opacity 0.35s ease-in-out;
-			}
-			
-				a.image:hover:before
-				{
-					opacity: 0.15;
-				}
-			*/
 		
 			.image img
 			{
@@ -313,7 +275,6 @@
 					width: auto;
 				}
 
-	/* Lists */
 
 		ul.style1
 		{
@@ -400,7 +361,6 @@
 		{
 		}
 
-	/* Forms */
 
 		form
 		{
@@ -469,7 +429,6 @@
 					border: 0;
 				}
 			
-	/* Tables */
 	
 		table
 		{
@@ -513,7 +472,6 @@
 				{
 				}
 
-	/* Buttons */
 		
 		.button
 		{
@@ -564,7 +522,6 @@
 			{
 			}
 			
-	/* Posts */
 
 		.post
 		{
@@ -579,12 +536,6 @@
 				{
 					margin: 0;
 				}
-
-/*********************************************************************************/
-/* Icons                                                                         */
-/* Powered by Font Awesome by Dave Gandy | http://fontawesome.io                 */
-/* Licensed under the SIL OFL 1.1 (font), MIT (CSS)                              */
-/*********************************************************************************/
 
 	.icon
 	{
@@ -1001,10 +952,6 @@
 		.icon-weibo:before{content:"\f18a";}
 		.icon-renren:before{content:"\f18b";}
 
-/*********************************************************************************/
-/* Wrapper                                                                       */
-/*********************************************************************************/
-
 	.wrapper
 	{
 		background: #fff;
@@ -1021,14 +968,10 @@
 			padding-top: 0;
 		}
 
-/*********************************************************************************/
-/* Header                                                                        */
-/*********************************************************************************/
-
 	#header
 	{
 		position: relative;
-		background-image: url('../images/header.jpg');
+		background-image: url('header.jpg');
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -1132,10 +1075,6 @@
 			{
 				background: rgba(192,192,192,0.35);
 			}
-
-/*********************************************************************************/
-/* Nav                                                                           */
-/*********************************************************************************/
 
 	#nav
 	{
@@ -1281,20 +1220,12 @@
 				border-right: solid 0.75em rgba(64,64,64,0);
 			}
 
-/*********************************************************************************/
-/* Banner                                                                        */
-/*********************************************************************************/
-
 	#banner
 	{
 		background: #fff;
 		text-align: center;
 		padding: 4.5em 0 4.5em 0;
 	}
-
-/*********************************************************************************/
-/* Content                                                                       */
-/*********************************************************************************/
 
 	#content
 	{
@@ -1311,10 +1242,6 @@
 			margin-bottom: 0;
 		}
 		
-/*********************************************************************************/
-/* Sidebar                                                                       */
-/*********************************************************************************/
-
 	#sidebar
 	{
 	}
@@ -1335,10 +1262,6 @@
 			margin-bottom: 0;
 		}
 
-/*********************************************************************************/
-/* Main                                                                          */
-/*********************************************************************************/
-
 	#main
 	{
 	}
@@ -1348,10 +1271,6 @@
 			padding-top: 2em;
 		}		
 	
-/*********************************************************************************/
-/* Footer                                                                        */
-/*********************************************************************************/
-
 	#footer
 	{
 		position: relative;
@@ -1411,10 +1330,6 @@
 					color: rgba(212,212,212,0.85);
 				}
 
-/*********************************************************************************/
-/* Carousel                                                                      */
-/*********************************************************************************/
-
 	.carousel
 	{
 		position: relative;
@@ -1472,7 +1387,7 @@
 				position: absolute;
 				top: 50%;
 				margin: -1.5em 0 0 0;
-				background: url('images/arrow.svg') no-repeat center center;
+				background: url('arrow.svg') no-repeat center center;
 			}
 
 			.carousel .forward:after
